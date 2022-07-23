@@ -6,3 +6,13 @@ insert data dummy bisa menggunakan seeder di database->seeders->DatabaseSeeder.p
 php artisan db:seed --class=NewsSeeder
 
 php artisan migrate:refresh untuk me migrate ulang table
+
+
+1. composer global require "laravel/installer"
+2. laravel new (nama project)
+3. composer require laravel/breeze --dev
+4. php artisan breeze:install
+5. php artisan breeze:install react
+6. npm install
+7. npm run dev
+8. php artisan migrate
