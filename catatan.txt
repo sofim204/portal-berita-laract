@@ -1,0 +1,8 @@
+php artisan make:model News -mcr
+-mcr adalah membuat model, controller dan route, dan migration nya
+
+insert data dummy bisa menggunakan seeder di database->seeders->DatabaseSeeder.php dan phpFaker(fake()->title())
+
+php artisan db:seed --class=NewsSeeder
+
+php artisan migrate:refresh untuk me migrate ulang table
